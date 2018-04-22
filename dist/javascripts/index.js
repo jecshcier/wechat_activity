@@ -1,1 +1,1 @@
-console.log("这是一个测试的js");
+function login(_this){""!==$(".key").val()?$.ajax({url:projectName+"/login",type:"POST",dataType:"json",data:{key:$(".key").val()}}).done(function(result){result.flag?window.location.href=projectName+"/newAct":alert(result.message)}).fail(function(){alert("服务器连接失败")}):alert("密码不能为空")}

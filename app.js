@@ -8,7 +8,7 @@ const session = require('express-session')({
 	// genid: function(req) {
 	//   return genuuid() // use UUIDs for session IDs
 	// },
-	secret: 'edu_services',
+	secret: 'wechat_activity',
 	resave: true,
 	saveUninitialized: true
 })
